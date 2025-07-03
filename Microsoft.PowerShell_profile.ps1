@@ -33,7 +33,5 @@ if (Test-Path($ChocolateyProfile)) {
 # AUTOCOMPLETION
 # ---------------
 #Install-Module -Name PSReadLine -force
-Import-Module Terminal-Icons
-
-if (Test-Path "C:\Users\Gabriel_Stundner\.jabba\jabba.ps1") { . "C:\Users\Gabriel_Stundner\.jabba\jabba.ps1" }
+Import-Module -Name Terminal-Icons
 
