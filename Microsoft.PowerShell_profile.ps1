@@ -9,7 +9,7 @@ New-Alias c -Value clear
 New-Alias rem -Value Remove-Item
 New-Alias -Name nvim-config -Value 'C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\WindowsPowerShell\Scripts\nvim-config.ps1'
 New-Alias -Name powershell-config -Value 'C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\WindowsPowerShell\Scripts\powershell-config.ps1'
-New-Alias -Name cf -Value cf8
+#New-Alias ren -Value Rename-Item
 
 #----------------------------
 # OH-MY-POSH CONFIGURATION
