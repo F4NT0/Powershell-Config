@@ -35,3 +35,8 @@ if (Test-Path($ChocolateyProfile)) {
 #Install-Module -Name PSReadLine -force
 Import-Module -Name Terminal-Icons
 
+# ---------------------
+# TERMINAL-ICONS THEME 
+# ---------------------
+Add-TerminalIconsColorTheme -Path "C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\WindowsPowerShell\TerminalIconsTheme\fantotheme.psd1" -Force
+Set-TerminalIconsTheme -ColorTheme 'fantotheme'
