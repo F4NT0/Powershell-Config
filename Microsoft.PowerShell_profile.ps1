@@ -2,6 +2,35 @@
 #    POWERSHELL CONFIGURATION
 #================================
 
+#------------------------- 
+# DOTNET SCRIPTS RUNNERS
+#-------------------------
+
+function control-hours {
+  $filePath = (Get-ChildItem -Path "C:\Users\" -Recurse -Filter WorkTime.cs -ErrorAction SilentlyContinue | Select-Object -First 1).FullName
+
+  if (-not $filePath) {
+    Write-Host "File WorkTime.cs not found!" -ForegroundColor Red
+    return
+  }
+
+  dotnet run $filePath
+}
+
+New-Alias ch control-hours
+
+function check-timezone {
+  $filePath = (Get-ChildItem -Path "C:\Users\" -Recurse -Filter CheckTimeZone.cs -ErrorAction SilentlyContinue | Select-Object -First 1).FullName
+   if (-not $filePath) {
+    Write-Host "File CheckTimeZone.cs not found!" -ForegroundColor Red
+    return
+  }
+
+  dotnet run $filePath
+}
+
+New-Alias timezone check-timezone
+
 #------------
 #   ALIAS
 #------------

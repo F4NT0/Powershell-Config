@@ -77,6 +77,15 @@
                 'order-retrievetransactionhistory-api' = '#FFDE59'
                 'rtpacase-api'                         = '#FFDE59'
                 'sfdc-session-service'                 = '#FFDE59'
+                
+                # PARTNER PORTAL
+                'abstractionpartner-soapgateway'       = '#FE9900'
+                'abstractioncredit-soapgateway'        = '#FE9900'
+                'bureausearch-api'                     = '#CC6CE7'
+                'partnerbureausearch-api'              = '#CC6CE7'
+                'esign-notify-sfdc'                    = '#FFDE59'
+                'dfsleasecontract-fc-notifier'         = '#FFDE59'
+
             }
         }
         Files = @{
