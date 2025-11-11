@@ -53,6 +53,7 @@
                 'Case_Management'       = '#FFDE59'
                 'Services'              = '#E15BFF'
                 'Partner_Portal'        = '#5BFF5B'
+                'CSHARP'                = '#CC6CE7'
                 
                 # CASE MANAGEMENT
                 'accountprocessor-api'                 = '#FE9900'
